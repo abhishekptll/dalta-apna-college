@@ -44,7 +44,7 @@
 //     let num = 0;
 //     for(let i=0;i<=a;i++){
 //         num=num+i;
-       
+
 //     }
 //     console.log(num)
 // }
@@ -62,4 +62,80 @@
 // }
 
 // mrgstr();
+
+// let str = "aabhidsjkhds";
+// let uni="";
+// for(let i = 0; i<str.length;i++){
+//     if(!uni.includes(str[i])){
+//         uni += str[i];
+//     }
+
+// }
+// console.log(uni);
+
+
+// let contries =["paraswada","nandna", "bhopal"];
+// let larcon ="";
+
+// for(i=0;i<contries.length;i++){
+//     for(j=0;j<contries[i].length;j++);
+//     if(contries[i] >= contries[j]){
+//       larcon = contries[i];
+//     }
+// }
+
+
+// let str = "abhishek";
+// let vowels = ""
+// let count = 0;
+
+// for (let i = 0; i <= str.length; i++) {
+//     if (str.charAt(i) == "a" || str.charAt(i) == "e" || str.charAt(i) == "i" || str.charAt(i) == "o" || str.charAt(i) == "u") {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+// let interval = setInterval(()=>{
+//     console.log("hello ");
+// },1000);
+
+// setTimeout(()=>{
+//     clearInterval(interval);
+//     console.log("finish interval time");
+// },6000);
+
+
+// let arr =[1,2,3,4,5,6,7];
+// let newarr = arr.map((el)=>2*el);
+// console.log(newarr)
+
+//  let arr =[1,2,3,4,5,6,7];
+//  let newarr = arr.filter((el)=> 2%el!=0);
+//   console.log(newarr)
+
+//  [2,4,6].every((el)=>el%2);
+
+// [2,4,6].some((el)=>el%2);
+
+// let arr = [1,2,3,4];
+
+// let neewarr = arr.reduce((res,el)=>{
+//     if(el>res){
+       
+//         return el;
+//     }else return res
+    
+// })
+
+
+// let arr =[1,2,3,3,4,4,5,6];
+
+// let arrr = (arr)=>{
+//     console.log(...arr)
+// }
+// arrr(arr)
+
+
 
